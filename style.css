@@ -16,6 +16,10 @@ button{
     padding-left: 15px !important;
 }
 
+
 .material-icons{
     color: white;
+}
+.demo-list-control {
+    width: 300px;
 }
