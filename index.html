@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Liste To Do</title>
 </head>
@@ -41,13 +42,30 @@
     <main class="mdl-layout__content">
         <div class="page-content">
             <!-- Your content goes here -->
-            <!-- Simple Textfield -->
+            <!-- Textfield with Floating Label -->
             <form action="#">
-                <div class="mdl-textfield mdl-js-textfield">
-                    <input class="mdl-textfield__input" type="text" id="sample1">
-                    <label class="mdl-textfield__label" for="sample1">Text...</label>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Pleas add task to do in the liste.</label>
                 </div>
+                <button class="mdl-button mdl-js-button mdl-button--fab ">
+                    <i class="material-icons">add</i>
+                </button>
             </form>
+            <ul class="demo-list-control mdl-list">
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                      <i class="material-icons  mdl-list__item-avatar">person</i>
+                      Bryan Cranston
+                    </span>
+                                    <span class="mdl-list__item-secondary-action">
+                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+                        <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+                      </label>
+                    </span>
+                </li>
+            </ul>
+            <!-- FAB button -->
 
         </div>
     </main>

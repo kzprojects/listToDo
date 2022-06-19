@@ -1,8 +1,21 @@
 body{
     background: lightblue;
 }
-.titleListe{
-    text-align: center;
-    font-family: "Arial Black";
-    font-size: 28px;
+.page-content{
+    padding: 50px 200px;
+}
+.mdl-textfield__input{
+    color: black;
+}
+.mdl-textfield__label{
+    color: black;
+}
+.mdl-button{
+    background: rgb(63,81,181);}
+button{
+    padding-left: 15px !important;
+}
+
+.material-icons{
+    color: white;
 }
